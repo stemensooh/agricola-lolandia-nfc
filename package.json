@@ -1,0 +1,18 @@
+{
+  "name": "app-leer-arduino",
+  "version": "1.0.0",
+  "description": "servicio de lectura codigo arete por medio de arduino",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js COM3"
+  },
+  "author": "bolivar.cardenas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "serialport": "^10.5.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4"
+  }
+}
